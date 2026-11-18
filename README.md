@@ -10,13 +10,11 @@ Flutter, committed with a create-once Firestore transaction to
 |---|---|
 | `lib/services/trivia_validator.dart` | Validates + decodes the OpenTDB response (`Uri.decodeComponent`) |
 | `lib/services/trivia_service.dart` | HTTP GET, 10 s timeout, 5 s minimum gap, no auto-retry |
-| `lib/services/attempt_repository.dart` | Transaction (create-once), server read, error mapping, dev fault hooks |
-| `lib/state/quiz_controller.dart` | The state machine (all phases and guards) |
+| `lib/services/attempt_repository.dart` | Transaction, server read, error mapping, dev fault hooks |
+| `lib/state/quiz_controller.dart` | The state machine  |
 | `lib/screens/*` | Sign-in, quiz + review, saved attempts, DEV lab |
-| `firestore.rules` | The owner-only rules from the assignment (deploy these) |
+| `firestore.rules` | The owner-only rules from the assignment  |
 | `test/` | Unit tests for decoding/validation |
-| `docs/STATE_DIAGRAM.md` | State machine diagram (use / redraw for your evidence doc) |
-| `docs/EVIDENCE_TEMPLATE.md` | Test records T01–T12, G01–G03, answer outlines |
 
 
 ### 1. Android manifest + minSdk
