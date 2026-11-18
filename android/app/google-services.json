@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1053267829507",
+    "project_id": "inclass16-9eaee",
+    "storage_bucket": "inclass16-9eaee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053267829507:android:b1eb5e2d320728363c7f36",
+        "android_client_info": {
+          "package_name": "com.tejaswini.science_signal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo5mGp-ackWGoEesqEECDahW-eDvhmXGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

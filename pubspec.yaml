@@ -1,0 +1,25 @@
+name: science_signal
+description: ICA 16 Class B - Science Signal (Flutter + OpenTDB + Firebase Auth + Cloud Firestore)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+# NOTE: http, firebase_core, firebase_auth and cloud_firestore are added by
+#   flutter pub add http firebase_core firebase_auth cloud_firestore
+# so you always get versions that match YOUR Flutter SDK. See README step 3.
+dependencies:
+  cloud_firestore: ^7.2.0
+  firebase_auth: ^7.1.0
+  firebase_core: ^5.2.0
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

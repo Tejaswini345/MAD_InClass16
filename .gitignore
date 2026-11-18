@@ -1,0 +1,13 @@
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+local.properties
+key.properties
+*.jks
+*.keystore
+# Never commit service accounts / admin keys / passwords
+service-account*.json
+*-adminsdk-*.json

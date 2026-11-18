@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Science Signal (DEV TOOLS on)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define=DEV_TOOLS=true"]
+    },
+    {
+      "name": "Science Signal (clean, no dev tools)",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}
